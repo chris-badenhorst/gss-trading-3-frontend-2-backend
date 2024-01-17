@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Dependencies
+/node_modules/
+/yarn-error.log
+
+# Compiled Python files
+*.pyc
+
+# Local development settings
+*.env
+
+# Django generated files
+*.pyo
+*.pyd
+*.db.sqlite3
+
+# Ignore the media folder (if you have one for user-uploaded files)
+/media/
+
+# Ignore the static folder (if you serve static files with a different solution)
+/static/
+
+# Ignore Django secret key files
+*.key
+
+# Ignore pipenv or poetry lock files
+Pipfile.lock
+poetry.lock
+
+# Ignore pytest cache
+__pycache__
+
+# Ignore coverage files
+coverage/
+
+# Ignore .vscode folder
+.vscode/
+
+# Ignore editor-specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Ignore compiled files
+*.mo
+*.pot
+
+# Ignore environment-specific settings
+.envrc
+
+# Ignore custom development settings
+dev_settings.py
