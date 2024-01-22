@@ -13,9 +13,11 @@ def addSurveys(request):
     
     survey_item = SurveyItem.objects.create(
         responsible_employee=data["responsibleEmployee"],
+        survey_number=data["surveyNumber"],
         present_on_site=data["presentOnSite"],
         premisis_occupaid_vacant=data["premisesOccupiedOrVacant"],
         survey_items=data["surveyItems"],
+        other_items=data["other"],
         comment=data["comment"],
     )
     serializer = SurveyItemSerializer(survey_item)
